@@ -19,8 +19,8 @@ export default function Nav() {
         <div className="hidden md:flex items-center gap-8 text-sm text-gray-400">
           <Link href="#menu" className="hover:text-espresso transition-colors">Menu</Link>
           <Link href="#specials" className="hover:text-espresso transition-colors">Specials</Link>
-          <a href="https://discord.gg/studydate" className="hover:text-espresso transition-colors">Discord</a>
-          <a href="https://github.com/alyssahong/StudyDate" className="hover:text-espresso transition-colors">GitHub</a>
+          <a href="https://discord.gg/tdYYdCag" className="hover:text-espresso transition-colors">Discord</a>
+          <a href="https://github.com/alyssa-hong" className="hover:text-espresso transition-colors">GitHub</a>
         </div>
         <Link href="#order" className="hidden md:flex items-center gap-2 bg-espresso text-cream px-5 py-2.5 rounded-full text-sm font-medium hover:bg-latte transition-colors duration-300">Order now ↓</Link>
         <button className="md:hidden text-espresso text-xl" onClick={() => setOpen(!open)}>{open ? '✕' : '☰'}</button>
@@ -29,8 +29,8 @@ export default function Nav() {
         <div className="md:hidden bg-cream border-t border-foam px-6 py-6 flex flex-col gap-5 text-base">
           <Link href="#menu" className="text-gray-500 hover:text-espresso" onClick={() => setOpen(false)}>Menu</Link>
           <Link href="#specials" className="text-gray-500 hover:text-espresso" onClick={() => setOpen(false)}>Specials</Link>
-          <a href="https://discord.gg/studydate" className="text-gray-500 hover:text-espresso">Discord</a>
-          <a href="https://github.com/alyssahong/StudyDate" className="text-gray-500 hover:text-espresso">GitHub</a>
+          <a href="https://discord.gg/tdYYdCag" className="text-gray-500 hover:text-espresso">Discord</a>
+          <a href="github.com/alyssa-hong" className="text-gray-500 hover:text-espresso">GitHub</a>
           <Link href="#order" className="bg-espresso text-cream px-5 py-3 rounded-full text-sm font-medium text-center" onClick={() => setOpen(false)}>Download the app</Link>
         </div>
       )}

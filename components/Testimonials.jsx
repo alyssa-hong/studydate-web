@@ -15,10 +15,10 @@ function FadeIn({ children, delay = 0 }) {
   );
 }
 const reviews = [
-  { quote: 'StudyDate completely changed how our group works. No more hour-long debates. The coin flip is genius.', name: 'Maya Johnson', role: 'Junior, UGA', initials: 'MJ' },
-  { quote: 'It always finds somewhere fair for both of us. My study partner lives across town and we never fight about location anymore.', name: 'Carlos Rivera', role: 'Senior, Georgia Tech', initials: 'CR' },
-  { quote: 'The group date feature is so well done. Six of us use it every week and everyone gets notified instantly.', name: 'Priya Patel', role: 'Sophomore, Emory', initials: 'PP' },
-  { quote: 'Finally an app that makes studying feel like a social thing. The mascot is the cutest thing I have ever seen.', name: 'Jordan Lee', role: 'Senior, Agnes Scott', initials: 'JL' },
+  { quote: 'StudyDate completely changed how our group works. No more hour-long debates. The coin flip is genius.', name: 'Vivian Ngyuen', role: 'PA student', initials: 'VN' },
+  { quote: 'It always finds somewhere fair for both of us. My study partner lives across town and we never fight about location anymore.', name: 'Paige Hyunh', role: 'Graduate Student, Georgia Tech', initials: 'PH' },
+  { quote: 'The group date feature is so well done. Six of us use it every week and everyone gets notified instantly.', name: 'James Nguyen', role: 'Graduate Student, GSU', initials: 'JN' },
+  { quote: 'Finally an app that makes studying feel like a social thing. The mascot is the cutest thing I have ever seen.', name: 'Hiba Aryub', role: 'Senior, UGA', initials: 'HA' },
 ];
 export default function Testimonials() {
   return (

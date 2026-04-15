@@ -21,7 +21,7 @@ export default function Footer() {
               <p className="text-xs text-white/30 uppercase tracking-widest mb-5">Community</p>
               <div className="flex flex-col gap-3 text-sm text-white/60">
                 <a href="https://discord.gg/studydate" className="hover:text-cream transition-colors">Discord</a>
-                <a href="https://github.com/alyssahong/StudyDate" className="hover:text-cream transition-colors">GitHub</a>
+                <a href="https://github.com/alyssa-hong" className="hover:text-cream transition-colors">GitHub</a>
               </div>
             </div>
             <div>
